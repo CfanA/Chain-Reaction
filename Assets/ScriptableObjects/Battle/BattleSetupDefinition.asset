@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87bb1b5c926f3724480ddbda22ffcfe4, type: 3}
+  m_Name: BattleSetupDefinition
+  m_EditorClassIdentifier: 
+  playerSetup:
+    actorId: player
+    displayName: Player
+    maxHealth: 30
+    startingHealth: 30
+    startingEnergy: 3
+  enemySetup:
+    actorId: enemy
+    displayName: Enemy
+    maxHealth: 20
+    startingHealth: 20
+    startingEnergy: 2
+  startingTurn: 1
+  playerActsFirst: 1
+  memorySlotCount: 3
+  startingHandCards:
+  - {fileID: 11400000, guid: c947cca756cab4142ae88b6fae7da7d1, type: 2}
+  - {fileID: 11400000, guid: f492bc88a57f23e4db54d3c9671cfa86, type: 2}
